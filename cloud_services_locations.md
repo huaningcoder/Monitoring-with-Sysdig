@@ -6,7 +6,7 @@ lastupdated: "2020-03-14"
 
 keywords: Sysdig, IBM Cloud, monitoring, platform metrics
 
-subcollection: Monitoring-with-Sysdig
+subcollection: Sysdig
 
 
 ---
@@ -26,7 +26,7 @@ subcollection: Monitoring-with-Sysdig
 # Cloud services by location
 {: #cloud_services_locations}
 
-List of locations where {{site.data.keyword.cloud_notm}} services are enabled to send metrics to {{site.data.keyword.mon_full_notm}}. You monitor these metrics through the Sysdig instance that is configured to receive platform metrics. [Learn more about enabling platform metrics](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-enabling-platform-metrics).
+List of locations where {{site.data.keyword.cloud_notm}} services are enabled to send metrics to {{site.data.keyword.mon_full_notm}}. You monitor these metrics through the Sysdig instance that is configured to receive platform metrics. [Learn more about enabling platform metrics](/docs/Monitoring-with-Sysdig?topic=Sysdig-enabling-platform-metrics).
 {:shortdesc}
 
 
@@ -251,6 +251,42 @@ The followinf locations are valid for VPC Gen 1 and VPC Gen 2:
 | Service                                                       |`Frankfurt (eu-de)`  | `London (eu-gb)` |
 |---------------------------------------------------------------|---------------------|------------------|
 | Virtual Private Cloud (VPC)  | `NO`   | ![Checkmark icon](../../icons/checkmark-icon.svg) |            
+{: caption="VPC events in Europe locations" caption-side="top"}
+{: #cs-vpc-table-3}
+{: tab-title="Europe"}
+{: tab-group="cs_vpc"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+
+## VPC VPN service
+{: #cloud_services_locations_vpc_vpn}
+
+The following locations are valid for VPC VPN:
+
+| Service                                | `Dallas (us-south)`                                | `Washington (us-east)`               |
+|----------------------------------------|----------------------------------------------------|--------------------------------------|
+| Virtual Private Cloud VPN   | ![Checkmark icon](../../icons/checkmark-icon.svg)  | ![Checkmark icon](../../icons/checkmark-icon.svg)   |            
+{: caption="VPC events in America's locations" caption-side="top"}
+{: #cs-vpc-table-1}
+{: tab-title="America"}
+{: tab-group="cs_vpc"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Service                                                         | `Tokyo (jp-tok)` |`Sydney (au-syd)`           |
+|-----------------------------------------------------------------|------------------|----------------------------|
+| Virtual Private Cloud VPN  | ![Checkmark icon](../../icons/checkmark-icon.svg)               | ![Checkmark icon](../../icons/checkmark-icon.svg) |             
+{: caption="VPC events in AP locations" caption-side="top"}
+{: #cs-vpc-table-2}
+{: tab-title="Asia Pacific"}
+{: tab-group="cs_vpc"}
+{: class="simple-tab-table"}
+{: row-headers}
+
+| Service                                                       |`Frankfurt (eu-de)`  | `London (eu-gb)` |
+|---------------------------------------------------------------|---------------------|------------------|
+| Virtual Private Cloud VPN  | ![Checkmark icon](../../icons/checkmark-icon.svg)   | ![Checkmark icon](../../icons/checkmark-icon.svg) |            
 {: caption="VPC events in Europe locations" caption-side="top"}
 {: #cs-vpc-table-3}
 {: tab-title="Europe"}

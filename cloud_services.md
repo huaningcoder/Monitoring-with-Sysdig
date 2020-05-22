@@ -6,7 +6,7 @@ lastupdated: "2020-03-14"
 
 keywords: Sysdig, IBM Cloud, monitoring, platform metrics
 
-subcollection: Monitoring-with-Sysdig
+subcollection: Sysdig
 
 
 ---
@@ -26,7 +26,7 @@ subcollection: Monitoring-with-Sysdig
 # Cloud services
 {: #cloud_services}
 
-List of {{site.data.keyword.cloud}} services that send metrics to {{site.data.keyword.mon_full_notm}}. You monitor these metrics through the Sysdig instance that is configured to receive platform metrics. [Learn more about enabling platform metrics](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-platform_metrics_enabling).
+List of {{site.data.keyword.cloud}} services that send metrics to {{site.data.keyword.mon_full_notm}}. You monitor these metrics through the Sysdig instance that is configured to receive platform metrics. [Learn more about enabling platform metrics](/docs/Monitoring-with-Sysdig?topic=Sysdig-platform_metrics_enabling).
 {:shortdesc}
 
 
@@ -48,7 +48,7 @@ The following table lists CF resources that are Sysdig-enabled:
 
 | Service     | Description | Metrics | 
 |-------------|-------------|-------------------|
-| [Cloud Foundry (CF)](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started) | CF is the premier industry standard Platform-as-a-Service (PaaS), that ensures the fastest, easiest, and most reliable deployment of cloud-native applications.  | [Metrics collected by CF](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-monitor-cf-sysdig)|
+| [Cloud Foundry (CF)](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started) | CF is the premier industry standard Platform-as-a-Service (PaaS), that ensures the fastest, easiest, and most reliable deployment of cloud-native applications.  | [Metrics collected by CF](/docs/Monitoring-with-Sysdig?topic=Sysdig-monitor-cf-sysdig)|
 {: caption="List of CF resources" caption-side="top"} 
 
 
@@ -102,6 +102,15 @@ There are 2 types of VPC infrastructure that you can provision in your account:
 * [{{site.data.keyword.vpc_full}} Gen 2](/docs/vpc?topic=vpc-getting-started)
 
 To learn about VPC metrics, see [Monitoring VPC metrics](/docs/vsi?topic=virtual-servers-sysdig-monitoring-metrics).
+
+
+## VPC VPN service
+{: #vpc_vpn_service}
+
+The {{site.data.keyword.cloud}} VPN for Virtual Private Cloud allows you to connect private networks in a secure fashion. You can use VPN to set up a connection between your VPC and your on-premise private network or another VPC.
+{: shortdesc}
+
+To learn about VPC VPN metrics, see [Monitoring VPC VPN metrics](/docs/vpc-on-classic-network?topic=vpc-on-classic-network-sysdig-monitoring-metrics).
 
 
 
